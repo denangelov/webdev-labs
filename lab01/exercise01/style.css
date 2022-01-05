@@ -14,7 +14,7 @@ Add some style blocks below this line to style the card.
 .cards {
     box-sizing: border-box;
     border: 1px solid #CCC;
-    width: 35vh;
+    width: 40vh;
     height: 50vh;
     margin: 10px;
 }
