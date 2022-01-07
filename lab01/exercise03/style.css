@@ -1,0 +1,56 @@
+body * {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+/*
+Add some style blocks below this line to style the cards.
+Feel free to borrow from Exercise 1.
+*/
+
+.flex-box {
+    display: flex;
+}
+
+.cards {
+    flex: 0 1 35vh;
+    margin: 10px;
+    background-color: rgba(219, 219, 219, 0.2);
+    box-sizing: border-box;
+    border: 1px solid rgb(114, 114, 114);
+}
+
+.cards p, button {
+    margin: 10px;
+}
+
+.cards h2 {
+    text-align: center;
+    font-family: "Licorice", cursive;
+}
+
+.cards img, iframe{
+    width: 100%;
+}
+
+/* Tablet Media Query */
+@media only screen and (max-width: 1000px) {
+   .flex-box {
+       flex-wrap: wrap;
+   }
+
+   .cards {
+       flex: 0 1 46%;
+   }
+}
+
+/* Mobile Phone Media Query */
+@media only screen and (max-width: 600px) {
+    .flex-box {
+        flex-direction: column;
+        flex-wrap: nowrap;
+    }
+}
